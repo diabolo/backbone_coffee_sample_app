@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'sqlite3'
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,6 +20,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem "jasminerice"
+  gem 'rspec-rails'
   gem 'ruby-debug19', :require => 'ruby-debug'
 end
 
